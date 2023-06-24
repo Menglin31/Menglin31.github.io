@@ -1,127 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Meng&#39;s | Personal Blog</title>
-    <link>https://demo.gethugothemes.com/liva/examplesite/blog/</link>
-    <description>Recent content in blog on Meng&#39;s | Personal Blog</description>
+    <title>blog on MLLee&#39;s Blog</title>
+    <link>https://Menglin31.github.io/blog/</link>
+    <description>Recent content in blog on MLLee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://demo.gethugothemes.com/liva/examplesite/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-1/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>Session-based Authontication v.s. Token-based Authontication</title>
+      <link>https://Menglin31.github.io/blog/authontication/</link>
+      <pubDate>Tue, 18 Apr 2023 10:07:47 +0600</pubDate>
       
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-1/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <guid>https://Menglin31.github.io/blog/authontication/</guid>
+      <description> Session-based Authontication 利用Session來進行驗證的機制 </description>
+    </item>
+    
+    <item>
+      <title>Attach USB Device to WSL2</title>
+      <link>https://Menglin31.github.io/blog/wsl_usb/</link>
+      <pubDate>Wed, 29 Mar 2023 07:30:50 +0800</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/wsl_usb/</guid>
+      <description>官方Demo https://www.youtube.com/watch?v=I2jOuLU4o8E
+作用機制 usb ip protocol
+system environment
+win11, wsl version 2 setup</description>
+    </item>
+    
+    <item>
+      <title>SLOID設計原則</title>
+      <link>https://Menglin31.github.io/blog/post-1/</link>
+      <pubDate>Wed, 08 Mar 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/post-1/</guid>
+      <description>SOLID設計原則 SRP: 單一職責原則 軟體產品的架構與開發團隊的組織會相互影響。 每個軟體模組只有一個理由需要改變。
+OCP: 開放&amp;ndash;封閉原則 要使軟體系統易於改變，須將其設計成允許透過增加新程式碼來更改行為（而非更改現有程式）。
+LSP: Liskov替換原則 建置軟體系統必須來自可互換的部分，這些部分必須遵守允許這些部分相互替換的契約。</description>
+    </item>
+    
+    <item>
+      <title>Git常用指令</title>
+      <link>https://Menglin31.github.io/blog/post-2/</link>
+      <pubDate>Tue, 04 Oct 2022 18:50:23 +0800</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/post-2/</guid>
+      <description>git branch，建立自己的Branch(ex: git branch ABC-12301) git checkout ABC-12301 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
     </item>
     
     <item>
       <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-10/</link>
+      <link>https://Menglin31.github.io/blog/post-13/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-10/</guid>
+      <guid>https://Menglin31.github.io/blog/post-13/</guid>
       <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-11/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title></title>
+      <link>https://Menglin31.github.io/blog/talking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-11/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-12/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-12/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-2/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-2/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-3/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-3/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-4/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-4/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-5/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-5/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-6/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-6/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-7/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-7/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-8/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-8/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-9/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-9/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <guid>https://Menglin31.github.io/blog/talking/</guid>
+      <description>邏輯表達力 三個理由製造機 注意事項 每個理由要各自獨立 每個理由都要扣題 理由要具體／具象化 </description>
     </item>
     
   </channel>

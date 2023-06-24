@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on MLLee&#39;s Blog</title>
+    <link>https://Menglin31.github.io/tags/git/</link>
+    <description>Recent content in git on MLLee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 04 Oct 2022 18:50:23 +0800</lastBuildDate><atom:link href="https://Menglin31.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git常用指令</title>
+      <link>https://Menglin31.github.io/blog/post-2/</link>
+      <pubDate>Tue, 04 Oct 2022 18:50:23 +0800</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/post-2/</guid>
+      <description>git branch，建立自己的Branch(ex: git branch ABC-12301) git checkout ABC-12301 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
+    </item>
+    
+  </channel>
+</rss>

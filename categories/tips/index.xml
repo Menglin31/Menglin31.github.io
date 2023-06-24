@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on MLLee&#39;s Blog</title>
+    <link>https://Menglin31.github.io/categories/tips/</link>
+    <description>Recent content in tips on MLLee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 29 Mar 2023 07:30:50 +0800</lastBuildDate><atom:link href="https://Menglin31.github.io/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attach USB Device to WSL2</title>
+      <link>https://Menglin31.github.io/blog/wsl_usb/</link>
+      <pubDate>Wed, 29 Mar 2023 07:30:50 +0800</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/wsl_usb/</guid>
+      <description>官方Demo https://www.youtube.com/watch?v=I2jOuLU4o8E
+作用機制 usb ip protocol
+system environment
+win11, wsl version 2 setup</description>
+    </item>
+    
+  </channel>
+</rss>
