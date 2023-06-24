@@ -8,7 +8,7 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Session-based Authontication v.s. Token-based Authontication</title>
+      <title>Session-based Authentication v.s. Token-based Authentication</title>
       <link>https://Menglin31.github.io/blog/post-3/</link>
       <pubDate>Tue, 18 Apr 2023 10:07:47 +0600</pubDate>
       
@@ -55,15 +55,6 @@ LSP: Liskov替換原則 建置軟體系統必須來自可互換的部分，這�
       
       <guid>https://Menglin31.github.io/blog/post-13/</guid>
       <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://Menglin31.github.io/blog/talking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Menglin31.github.io/blog/talking/</guid>
-      <description>邏輯表達力 三個理由製造機 注意事項 每個理由要各自獨立 每個理由都要扣題 理由要具體／具象化 </description>
     </item>
     
   </channel>
