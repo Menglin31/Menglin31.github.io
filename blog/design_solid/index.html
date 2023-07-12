@@ -6,7 +6,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description"
-    content="This is meta description">
+    content="this is meta description">
   
   <meta name="author" content="MLL">
 
@@ -110,117 +110,66 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      
-      <div class="col-lg-4">
-  <div class="widgets">
-    
-    <div class="widget">
-      
-      <h4 class="widget-title">About</h4>
-      
-      <img src="https://Menglin31.github.io/images/logo1.png" alt=""
-        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-      
-      <p>工程師的隨手亂記</p>
-      <a href="https://Menglin31.github.io/about/" class="btn btn-outline-primary">Know More</a>
-      
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Category</h4>
-      <ul class="list-unstyled">
-        <li><a href="/categories/authontication/">Authontication</a>
-        </li>
-        <li><a href="/categories/tips/">Tips</a>
-        </li>
-        <li><a href="/categories/%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6/">版本控制</a>
-        </li>
-        <li><a href="/categories/%e8%bb%9f%e9%ab%94%e8%a8%ad%e8%a8%88/">軟體設計</a>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Tag</h4>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/authontication/">Authontication</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/code/">Code</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/git/">Git</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/note/">Note</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/solid/">Solid</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/tips/">Tips</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/usb/">USB</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/version-control/">Version control</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/wsl/">Wsl</a></li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Social</h4>
-      <ul class="list-inline social-links">
+      <div class="col-lg-10 mx-auto">
         
-        <li class="list-inline-item"><a href="https://github.com/Menglin31"><i class="ti-github"></i></a></li>
+        <a href="/categories/%e8%bb%9f%e9%ab%94%e8%a8%ad%e8%a8%88" class="text-primary">軟體設計</a>
         
-        <li class="list-inline-item"><a href="https://www.linkedin.com/in/menglin-lee-3a8059236"><i class="ti-linkedin"></i></a></li>
-        
-      </ul>
-    </div>
-    
-    
-  </div>
-</div>
-      
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-12 mb-4">
-    <article class="card">
-        
-        <div class="card-body px-0">
-        
-        <a href="/categories/authontication"
-            class="text-primary">Authontication</a>
-        
-        <a href="https://Menglin31.github.io/blog/authentication/" class="h3 d-block my-3">Session-based Authentication v.s. Token-based Authentication</a>
+        <h2>SLOID設計原則</h2>
         <div class="mb-3 post-meta">
-            <span>By MLL</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>18-04-2023</span>
-            
-        </div>
-        <p class="card-text">Session-based Authontication v.s. Token-based Authontication</p>
-        <a href="https://Menglin31.github.io/blog/authentication/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By MLL</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>08 March 2023</span>
           
         </div>
-      </div>
+        
+        <div class="content mb-5">
+          <!-- raw HTML omitted -->
+<h1 id="solid設計原則">SOLID設計原則</h1>
+<h2 id="srp-單一職責原則">SRP: 單一職責原則</h2>
+<p>軟體產品的架構與開發團隊的組織會相互影響。
+每個軟體模組只有一個理由需要改變。</p>
+<h2 id="ocp-開放--封閉原則">OCP: 開放&ndash;封閉原則</h2>
+<p>要使軟體系統易於改變，須將其設計成允許透過增加新程式碼來更改行為（而非更改現有程式）。</p>
+<h2 id="lsp-liskov替換原則">LSP: Liskov替換原則</h2>
+<p>建置軟體系統必須來自可互換的部分，這些部分必須遵守允許這些部分相互替換的契約。</p>
+<h2 id="isp-介面隔離原則">ISP: 介面隔離原則</h2>
+<p>軟體設計師應該避免依賴於不使用的東西。</p>
+<h2 id="dip-依賴反向原則">DIP: 依賴反向原則</h2>
+<p>實作策略的高層程式碼不應該依賴於實作細節的低層級程式碼
+→ 細節應該依賴於策略</p>
+<!-- raw HTML omitted -->
+<h2 id="srpsingle-responsibility-principle單一職責原則">SRP(Single Responsibility Principle)，單一職責原則</h2>
+<h3 id="一個模組應該只對唯一的一個角色負責">一個模組應該只對唯一的一個角色負責</h3>
+<h4 id="狀況一">狀況一：</h4>
+<p>假設工程師正在為應用程式建立一個class進行用戶身份驗證。
+該class可能具有以下職責：
+驗證用戶的憑證（例如用戶名和密碼）。
+從資料庫中查詢用戶資料。
+為用戶生成身份驗證的token。
+但是，根據單一職責原則，一個class應該只有一個原因需要進行更改。
+換句話說，一個class只應該有一個職責。
+因此，在這種情況下，最好將職責分成下列幾個單獨的class：
+驗證用戶的憑證的class。
+從資料庫中查詢用戶資料的class。
+為用戶生成身份驗證token的class。
+這將產生更容易理解和維護的代碼，因為每個class都有一個明確且具體的職責。 如果其中一個職責發生變化，只需要更新相關的class，而不是對處理所有三個職責的單個class進行更改。</p>
 
-
-      
-      <div class="col-12 mt-5">
+        </div>
+        
+        <script src="https://utteranc.es/client.js" label="comment" repo="Menglin31/Menglin31.github.io"
+          issue-term="title" theme="github-light"
+          crossorigin="anonymous" async>
+          </script>
+        
         
       </div>
     </div>
   </div>
 </section>
-
 
 
 

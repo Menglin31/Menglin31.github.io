@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Session-based Authentication v.s. Token-based Authentication</title>
-      <link>https://Menglin31.github.io/blog/post-3/</link>
+      <link>https://Menglin31.github.io/blog/authentication/</link>
       <pubDate>Tue, 18 Apr 2023 10:07:47 +0600</pubDate>
       
-      <guid>https://Menglin31.github.io/blog/post-3/</guid>
+      <guid>https://Menglin31.github.io/blog/authentication/</guid>
       <description> Session-based Authontication 利用Session來進行驗證的機制 流程如下圖 Note: Http cookie 位於 Http request header中的小區塊，自動存於client side。 Token based Authentication 流程如下圖 Note：server不需要儲存任何資料，token由client保管 Difference: Session based 利用cookie傳遞資料，cookie只要同網域下的請求都會帶上。 CSRF(Cross Site Request Forgery): Eve可用他的網站去連線Alice網站的API，就可以更動Database。 如果環境被監聽(MitM, Men in the Middle Attack)，則兩種都不安全。 可以用SSL加密解決。 Session based中，每次session建立，都需要儲存空間，儲存辨識使用者的資料。 Token based中，辨識使用者的資料則是交給token進行儲存，不需要很大的伺服器空間，相同空間的情況下，能服務的使用者較多，但伺服器無法主動結束一個token，只能等token自己到期。 </description>
     </item>
     
@@ -30,10 +30,10 @@ win11, wsl version 2 setup</description>
     
     <item>
       <title>SLOID設計原則</title>
-      <link>https://Menglin31.github.io/blog/post-1/</link>
+      <link>https://Menglin31.github.io/blog/design_solid/</link>
       <pubDate>Wed, 08 Mar 2023 10:07:47 +0600</pubDate>
       
-      <guid>https://Menglin31.github.io/blog/post-1/</guid>
+      <guid>https://Menglin31.github.io/blog/design_solid/</guid>
       <description>SOLID設計原則 SRP: 單一職責原則 軟體產品的架構與開發團隊的組織會相互影響。 每個軟體模組只有一個理由需要改變。
 OCP: 開放&amp;ndash;封閉原則 要使軟體系統易於改變，須將其設計成允許透過增加新程式碼來更改行為（而非更改現有程式）。
 LSP: Liskov替換原則 建置軟體系統必須來自可互換的部分，這些部分必須遵守允許這些部分相互替換的契約。</description>
@@ -41,20 +41,11 @@ LSP: Liskov替換原則 建置軟體系統必須來自可互換的部分，這�
     
     <item>
       <title>Git常用指令</title>
-      <link>https://Menglin31.github.io/blog/post-2/</link>
+      <link>https://Menglin31.github.io/blog/git/</link>
       <pubDate>Tue, 04 Oct 2022 18:50:23 +0800</pubDate>
       
-      <guid>https://Menglin31.github.io/blog/post-2/</guid>
-      <description>git branch，建立自己的Branch(ex: git branch ABC-12301) git checkout ABC-12301 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://Menglin31.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://Menglin31.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <guid>https://Menglin31.github.io/blog/git/</guid>
+      <description>git branch，建立自己的Branch(ex: git branch DCT-49267) git checkout DCT-49267 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
     </item>
     
   </channel>

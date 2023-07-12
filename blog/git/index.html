@@ -6,7 +6,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description"
-    content="This is meta description">
+    content="Git 指令">
   
   <meta name="author" content="MLL">
 
@@ -110,117 +110,54 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      
-      <div class="col-lg-4">
-  <div class="widgets">
-    
-    <div class="widget">
-      
-      <h4 class="widget-title">About</h4>
-      
-      <img src="https://Menglin31.github.io/images/logo1.png" alt=""
-        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-      
-      <p>工程師的隨手亂記</p>
-      <a href="https://Menglin31.github.io/about/" class="btn btn-outline-primary">Know More</a>
-      
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Category</h4>
-      <ul class="list-unstyled">
-        <li><a href="/categories/authontication/">Authontication</a>
-        </li>
-        <li><a href="/categories/tips/">Tips</a>
-        </li>
-        <li><a href="/categories/%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6/">版本控制</a>
-        </li>
-        <li><a href="/categories/%e8%bb%9f%e9%ab%94%e8%a8%ad%e8%a8%88/">軟體設計</a>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Tag</h4>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/authontication/">Authontication</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/code/">Code</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/git/">Git</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/note/">Note</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/solid/">Solid</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/tips/">Tips</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/usb/">USB</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/version-control/">Version control</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/wsl/">Wsl</a></li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Social</h4>
-      <ul class="list-inline social-links">
+      <div class="col-lg-10 mx-auto">
         
-        <li class="list-inline-item"><a href="https://github.com/Menglin31"><i class="ti-github"></i></a></li>
+        <a href="/categories/%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6" class="text-primary">版本控制</a>
         
-        <li class="list-inline-item"><a href="https://www.linkedin.com/in/menglin-lee-3a8059236"><i class="ti-linkedin"></i></a></li>
-        
-      </ul>
-    </div>
-    
-    
-  </div>
-</div>
-      
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-12 mb-4">
-    <article class="card">
-        
-        <div class="card-body px-0">
-        
-        <a href="/categories/authontication"
-            class="text-primary">Authontication</a>
-        
-        <a href="https://Menglin31.github.io/blog/authentication/" class="h3 d-block my-3">Session-based Authentication v.s. Token-based Authentication</a>
+        <h2>Git常用指令</h2>
         <div class="mb-3 post-meta">
-            <span>By MLL</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>18-04-2023</span>
-            
-        </div>
-        <p class="card-text">Session-based Authontication v.s. Token-based Authontication</p>
-        <a href="https://Menglin31.github.io/blog/authentication/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By MLL</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>04 October 2022</span>
           
         </div>
-      </div>
+        
+        <div class="content mb-5">
+          <ol>
+<li>git branch，建立自己的Branch(ex: git branch DCT-49267)</li>
+<li>git checkout DCT-49267</li>
+<li>git add</li>
+<li>git commit -m &ldquo;commit message&rdquo;</li>
+<li>git pull遠端處理的版本(ex:git pull origin 1.0.0-branch)</li>
+<li>git push 自己的分支(ex: git push origin ABC-0001)</li>
+<li>github上發PR</li>
+<li>設定reviewer</li>
+</ol>
+<ul>
+<li>改branch name
+<ul>
+<li>切到該分支底下</li>
+<li>輸入 <code>git branch -m &lt;new branch name&gt;</code></li>
+</ul>
+</li>
+</ul>
 
-
-      
-      <div class="col-12 mt-5">
+        </div>
+        
+        <script src="https://utteranc.es/client.js" label="comment" repo="Menglin31/Menglin31.github.io"
+          issue-term="title" theme="github-light"
+          crossorigin="anonymous" async>
+          </script>
+        
         
       </div>
     </div>
   </div>
 </section>
-
 
 
 

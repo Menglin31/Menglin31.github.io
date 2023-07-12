@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 08 Mar 2023 10:07:47 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/categories/%E8%BB%9F%E9%AB%94%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SLOID設計原則</title>
-      <link>https://Menglin31.github.io/blog/post-1/</link>
+      <link>https://Menglin31.github.io/blog/design_solid/</link>
       <pubDate>Wed, 08 Mar 2023 10:07:47 +0600</pubDate>
       
-      <guid>https://Menglin31.github.io/blog/post-1/</guid>
+      <guid>https://Menglin31.github.io/blog/design_solid/</guid>
       <description>SOLID設計原則 SRP: 單一職責原則 軟體產品的架構與開發團隊的組織會相互影響。 每個軟體模組只有一個理由需要改變。
 OCP: 開放&amp;ndash;封閉原則 要使軟體系統易於改變，須將其設計成允許透過增加新程式碼來更改行為（而非更改現有程式）。
 LSP: Liskov替換原則 建置軟體系統必須來自可互換的部分，這些部分必須遵守允許這些部分相互替換的契約。</description>
