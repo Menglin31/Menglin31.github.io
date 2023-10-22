@@ -6,7 +6,18 @@
     <description>Recent content on MLLee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 18 Apr 2023 10:07:47 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Oct 2023 10:07:47 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Define macro vs function</title>
+      <link>https://Menglin31.github.io/blog/define/</link>
+      <pubDate>Sun, 22 Oct 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/define/</guid>
+      <description>C語言的巨集（#define）和function call是在程式碼中實現相同目標的兩種不同方法。然而，它們在空間和速度方面存在重要區別。
+空間上的差異： 巨集在編譯時會被展開成實際程式碼，因此可能增加記憶體消耗。當使用多個巨集時，前置處理後的程式碼會變得更大，可能導致可執行檔體積增加。 function call使用相對較小的空間，因為函數代碼只在程式運行時複製到堆疊，不會在編譯過程中展開。
+速度上的差異： 巨集的展開在編譯時完成，通常更快速。function call需要堆疊操作，如push和pop，這可能涉及更多指令執行，速度較慢。 巨集具有效能優勢，但有可能降低代碼的可讀性。</description>
+    </item>
+    
     <item>
       <title>Session-based Authentication v.s. Token-based Authentication</title>
       <link>https://Menglin31.github.io/blog/authentication/</link>
@@ -45,7 +56,7 @@ LSP: Liskov替換原則 建置軟體系統必須來自可互換的部分，這�
       <pubDate>Tue, 04 Oct 2022 18:50:23 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/git/</guid>
-      <description>git branch，建立自己的Branch(ex: git branch DCT-49267) git checkout DCT-49267 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
+      <description>git branch，建立自己的Branch(ex: git branch ABC-49267) git checkout ABC-49267 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
     </item>
     
   </channel>

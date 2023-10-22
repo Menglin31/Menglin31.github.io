@@ -6,7 +6,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description"
-    content="Git 指令">
+    content="Define macro 和 function call的比較">
   
   <meta name="author" content="MLL">
 
@@ -115,36 +115,28 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <a href="/categories/%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6" class="text-primary">版本控制</a>
+        <a href="/categories/%e8%bb%9f%e9%ab%94%e8%a8%ad%e8%a8%88" class="text-primary">軟體設計</a>
         
-        <h2>Git常用指令</h2>
+        <h2>Define macro vs function</h2>
         <div class="mb-3 post-meta">
           <span>By MLL</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>04 October 2022</span>
+          <span>22 October 2023</span>
           
         </div>
         
         <div class="content mb-5">
-          <ol>
-<li>git branch，建立自己的Branch(ex: git branch ABC-49267)</li>
-<li>git checkout ABC-49267</li>
-<li>git add</li>
-<li>git commit -m &ldquo;commit message&rdquo;</li>
-<li>git pull遠端處理的版本(ex:git pull origin 1.0.0-branch)</li>
-<li>git push 自己的分支(ex: git push origin ABC-0001)</li>
-<li>github上發PR</li>
-<li>設定reviewer</li>
-</ol>
-<ul>
-<li>改branch name
-<ul>
-<li>切到該分支底下</li>
-<li>輸入 <code>git branch -m &lt;new branch name&gt;</code></li>
-</ul>
-</li>
-</ul>
+          <!-- raw HTML omitted -->
+<p>C語言的巨集（#define）和function call是在程式碼中實現相同目標的兩種不同方法。然而，它們在空間和速度方面存在重要區別。</p>
+<p>空間上的差異：
+巨集在編譯時會被展開成實際程式碼，因此可能增加記憶體消耗。當使用多個巨集時，前置處理後的程式碼會變得更大，可能導致可執行檔體積增加。
+function call使用相對較小的空間，因為函數代碼只在程式運行時複製到堆疊，不會在編譯過程中展開。</p>
+<p>速度上的差異：
+巨集的展開在編譯時完成，通常更快速。function call需要堆疊操作，如push和pop，這可能涉及更多指令執行，速度較慢。
+巨集具有效能優勢，但有可能降低代碼的可讀性。</p>
+<p>在實際程式設計中，選擇使用巨集或function call應基於特定需求和效能目標，需要權衡這些因素。</p>
+<!-- raw HTML omitted -->
 
         </div>
         

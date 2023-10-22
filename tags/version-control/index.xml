@@ -13,7 +13,7 @@
       <pubDate>Tue, 04 Oct 2022 18:50:23 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/git/</guid>
-      <description>git branch，建立自己的Branch(ex: git branch DCT-49267) git checkout DCT-49267 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
+      <description>git branch，建立自己的Branch(ex: git branch ABC-49267) git checkout ABC-49267 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
     </item>
     
   </channel>
