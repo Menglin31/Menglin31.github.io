@@ -6,7 +6,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description"
-    content="This is meta description">
+    content="Dynamic Programming 解題方式">
   
   <meta name="author" content="MLL">
 
@@ -110,127 +110,75 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      
-      <div class="col-lg-4">
-  <div class="widgets">
-    
-    <div class="widget">
-      
-      <h4 class="widget-title">About</h4>
-      
-      <img src="https://Menglin31.github.io/images/logo1.png" alt=""
-        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-      
-      <p></p>
-      <a href="https://Menglin31.github.io/about/" class="btn btn-outline-primary">Know More</a>
-      
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Category</h4>
-      <ul class="list-unstyled">
-        <li><a href="/categories/algorithm/">Algorithm</a>
-        </li>
-        <li><a href="/categories/authontication/">Authontication</a>
-        </li>
-        <li><a href="/categories/tips/">Tips</a>
-        </li>
-        <li><a href="/categories/%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6/">版本控制</a>
-        </li>
-        <li><a href="/categories/%e8%bb%9f%e9%ab%94%e8%a8%ad%e8%a8%88/">軟體設計</a>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Tag</h4>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/authontication/">Authontication</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/c/">C</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/code/">Code</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/dp/">Dp</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/git/">Git</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/lcs/">Lcs</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/leetcode/">Leetcode</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/note/">Note</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/solid/">Solid</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/tips/">Tips</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/usb/">USB</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/version-control/">Version control</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/wsl/">Wsl</a></li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Social</h4>
-      <ul class="list-inline social-links">
+      <div class="col-lg-10 mx-auto">
         
-        <li class="list-inline-item"><a href="https://github.com/Menglin31"><i class="ti-github"></i></a></li>
+        <a href="/categories/algorithm" class="text-primary">Algorithm</a>
         
-        <li class="list-inline-item"><a href="https://www.linkedin.com/in/menglin-lee-3a8059236"><i class="ti-linkedin"></i></a></li>
-        
-      </ul>
-    </div>
-    
-    
-  </div>
-</div>
-      
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-12 mb-4">
-    <article class="card">
-        
-        <div class="card-body px-0">
-        
-        <a href="/categories/authontication"
-            class="text-primary">Authontication</a>
-        
-        <a href="https://Menglin31.github.io/blog/authentication/" class="h3 d-block my-3">Session-based Authentication v.s. Token-based Authentication</a>
+        <h2>Dynamic Programming</h2>
         <div class="mb-3 post-meta">
-            <span>By MLL</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>18-04-2023</span>
-            
-        </div>
-        <p class="card-text">Session-based Authontication v.s. Token-based Authontication</p>
-        <a href="https://Menglin31.github.io/blog/authentication/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By MLL</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>17 December 2023</span>
           
         </div>
-      </div>
+        
+        <div class="content mb-5">
+          <p>最長共同子序列(Longest Common Subsequence ,LCS) 是一個經典的問題，涉及查找兩個給定字串中以相同順序出現的最長字元序列。這個問題有多種應用，包括 DNA 序列分析、文字比較和版本控制系統。</p>
+<ul>
+<li>四個步驟</li>
+</ul>
+<ol>
+<li>
+<p>把大問題和小問題之間的關係(特徵)找出來</p>
+<ul>
+<li>在 LCS 問題中，常見兩個字串的 LCS 可以從其子字串的 LCS 建構出來。</li>
+</ul>
+</li>
+<li>
+<p>找到關係後，寫遞迴關係式</p>
+<ul>
+<li>一旦大問題和小問題之間的關係建立起來，下一步就是製定遞迴關係。</li>
+<li>遞迴關係根據子問題的解來定義問題的解。</li>
+<li>對於 LCS 問題，遞迴關係是基於比較兩個字串的最後一個字元。</li>
+<li>設C[i][j]表示字串X的前i個字元和字串Y的前j個字元的LCS長度。遞迴關係為：
+<pre tabindex="0"><code class="language-C[i][j]" data-lang="C[i][j]">  C[i-1][j-1] + 1, if X[i] = Y[j]
+  max(C[i-1][j], C[i][j-1]), if X[i] ≠ Y[j]
+</code></pre></li>
+</ul>
+</li>
+<li>
+<p>從小問題最佳解，解出來後填入表格，一步一步往上，再解出大問題，大問題可透過查表得到答案。</p>
+<ul>
+<li>建立一個表格來儲存子問題的解決方案。</li>
+</ul>
+</li>
+<li>
+<p>已經有大表格後，可以透過原本的表格，找過最小的問題是怎麼得到的。</p>
+<ul>
+<li>一旦表格完成，原始問題的解決方案（完整字串的 LCS）將在表格的最後一個單元格中找到</li>
+<li>即 C[m][n]，其中 m 和 n 是輸入字串的長度分別為X 和Y。</li>
+</ul>
+</li>
+</ol>
+<p>結論：<br>
+為了解決最長共同子序列問題，動態規劃方法提供了一種有效且有系統的方法來尋找最優解決方案。透過將問題分解為更小的子問題並利用它們的解決方案，可以避免多餘計算並實現 O(m * n) 的時間複雜度，其中 m 和 n 是輸入字串的長度。 此方法廣泛應用於各種序列匹配問題。</p>
 
-
-      
-      <div class="col-12 mt-5">
+        </div>
+        
+        <script src="https://utteranc.es/client.js" label="comment" repo="Menglin31/Menglin31.github.io"
+          issue-term="title" theme="github-light"
+          crossorigin="anonymous" async>
+          </script>
+        
         
       </div>
     </div>
   </div>
 </section>
-
 
 
 
