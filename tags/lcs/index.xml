@@ -6,11 +6,11 @@
     <description>Recent content in LCS on MLLee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 17 Dec 2023 10:07:47 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/tags/lcs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2023 10:07:47 +0800</lastBuildDate><atom:link href="https://Menglin31.github.io/tags/lcs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamic Programming</title>
       <link>https://Menglin31.github.io/blog/dp/</link>
-      <pubDate>Sun, 17 Dec 2023 10:07:47 +0600</pubDate>
+      <pubDate>Sun, 17 Dec 2023 10:07:47 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/dp/</guid>
       <description>最長共同子序列(Longest Common Subsequence ,LCS) 是一個經典的問題，涉及查找兩個給定字串中以相同順序出現的最長字元序列。這個問題有多種應用，包括 DNA 序列分析、文字比較和版本控制系統。

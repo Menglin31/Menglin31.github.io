@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on MLLee&#39;s Blog</title>
+    <link>https://Menglin31.github.io/categories/arduino/</link>
+    <description>Recent content in Arduino on MLLee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 26 May 2022 13:14:50 +0800</lastBuildDate><atom:link href="https://Menglin31.github.io/categories/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Arduino 聲音感測模組 W104</title>
+      <link>https://Menglin31.github.io/blog/arduino_sound/</link>
+      <pubDate>Thu, 26 May 2022 13:14:50 +0800</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/arduino_sound/</guid>
+      <description>最近閒閒沒事突然想回味小時候玩的板子，順手把玩過的模組記錄下來。
+會先用流水帳的方式寫，有餘力再補充相關知識。
+W104聲音模組 實作 W104 聲音模組，偵測到聲音即透過外接 RGB 燈全彩模組亮燈。
+W104 這款聲音模組配有電容式麥克風，比較常用在聲音警報系統中。</description>
+    </item>
+    
+  </channel>
+</rss>

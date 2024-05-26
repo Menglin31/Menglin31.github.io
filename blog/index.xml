@@ -6,7 +6,7 @@
     <description>Recent content in blog on MLLee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0800</lastBuildDate><atom:link href="https://Menglin31.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>台北市游泳池評比</title>
       <link>https://Menglin31.github.io/blog/swim/</link>
@@ -28,7 +28,7 @@
     <item>
       <title>Dynamic Programming</title>
       <link>https://Menglin31.github.io/blog/dp/</link>
-      <pubDate>Sun, 17 Dec 2023 10:07:47 +0600</pubDate>
+      <pubDate>Sun, 17 Dec 2023 10:07:47 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/dp/</guid>
       <description>最長共同子序列(Longest Common Subsequence ,LCS) 是一個經典的問題，涉及查找兩個給定字串中以相同順序出現的最長字元序列。這個問題有多種應用，包括 DNA 序列分析、文字比較和版本控制系統。
@@ -39,7 +39,7 @@
     <item>
       <title>Define macro vs function</title>
       <link>https://Menglin31.github.io/blog/define/</link>
-      <pubDate>Sun, 22 Oct 2023 10:07:47 +0600</pubDate>
+      <pubDate>Sun, 22 Oct 2023 10:07:47 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/define/</guid>
       <description>C語言的巨集（#define）和function call是在程式碼中實現相同目標的兩種不同方法。不過，它們在空間和速度方面存在重要區別。
@@ -50,10 +50,10 @@
     <item>
       <title>Session-based Authentication v.s. Token-based Authentication</title>
       <link>https://Menglin31.github.io/blog/authentication/</link>
-      <pubDate>Tue, 18 Apr 2023 10:07:47 +0600</pubDate>
+      <pubDate>Tue, 18 Apr 2023 10:07:47 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/authentication/</guid>
-      <description> Session-based Authontication 利用Session來進行驗證的機制 流程如下圖 Note: Http cookie 位於 Http request header中的小區塊，自動存於client side。 Token based Authentication 流程如下圖 Note：server不需要儲存任何資料，token由client保管 Difference: Session based 利用cookie傳遞資料，cookie只要同網域下的請求都會帶上。 CSRF(Cross Site Request Forgery): Eve可用他的網站去連線Alice網站的API，就可以更動Database。 如果環境被監聽(MitM, Men in the Middle Attack)，則兩種都不安全。 可以用SSL加密解決。 Session based中，每次session建立，都需要儲存空間，儲存辨識使用者的資料。 Token based中，辨識使用者的資料則是交給token進行儲存，不需要很大的伺服器空間，相同空間的情況下，能服務的使用者較多，但伺服器無法主動結束一個token，只能等token自己到期。 </description>
+      <description>Session-based Authontication 利用Session來進行驗證的機制 流程如下圖 Note: Http cookie 位於 Http request header中的小區塊，自動存於client side。 Token based Authentication 流程如下圖 Note：server不需要儲存任何資料，token由client保管 Difference: Session based 利用cookie傳遞資料，cookie只要同網域下的請求都會帶上。 CSRF(Cross Site Request Forgery): Eve可用他的網站去連線Alice網站的API，就可以更動Database。 如果環境被監聽(MitM, Men in the Middle Attack)，則兩種都不安全。 可以用SSL加密解決。 Session based中，每次session建立，都需要儲存空間，儲存辨識使用者的資料。 Token based中，辨識使用者的資料則是交給token進行儲存，不需要很大的伺服器空間，相同空間的情況下，能服務的使用者較多，但伺服器無法主動結束一個token，只能等token自己到期。 </description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@ win11, wsl version 2 setup</description>
     <item>
       <title>SLOID設計原則</title>
       <link>https://Menglin31.github.io/blog/design_solid/</link>
-      <pubDate>Wed, 08 Mar 2023 10:07:47 +0600</pubDate>
+      <pubDate>Wed, 08 Mar 2023 10:07:47 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/design_solid/</guid>
       <description>SOLID設計原則 SRP: 單一職責原則 軟體產品的架構與開發團隊的組織會相互影響。 每個軟體模組只有一個理由需要改變。
@@ -86,6 +86,18 @@ LSP: Liskov替換原則 建置軟體系統必須來自可互換的部分，這�
       
       <guid>https://Menglin31.github.io/blog/git/</guid>
       <description>git branch，建立自己的Branch(ex: git branch ABC-49267) git checkout ABC-49267 git add git commit -m &amp;ldquo;commit message&amp;rdquo; git pull遠端處理的版本(ex:git pull origin 1.</description>
+    </item>
+    
+    <item>
+      <title> Arduino 聲音感測模組 W104</title>
+      <link>https://Menglin31.github.io/blog/arduino_sound/</link>
+      <pubDate>Thu, 26 May 2022 13:14:50 +0800</pubDate>
+      
+      <guid>https://Menglin31.github.io/blog/arduino_sound/</guid>
+      <description>最近閒閒沒事突然想回味小時候玩的板子，順手把玩過的模組記錄下來。
+會先用流水帳的方式寫，有餘力再補充相關知識。
+W104聲音模組 實作 W104 聲音模組，偵測到聲音即透過外接 RGB 燈全彩模組亮燈。
+W104 這款聲音模組配有電容式麥克風，比較常用在聲音警報系統中。</description>
     </item>
     
   </channel>

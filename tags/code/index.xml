@@ -6,11 +6,11 @@
     <description>Recent content in Code on MLLee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 22 Oct 2023 10:07:47 +0600</lastBuildDate><atom:link href="https://Menglin31.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Oct 2023 10:07:47 +0800</lastBuildDate><atom:link href="https://Menglin31.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Define macro vs function</title>
       <link>https://Menglin31.github.io/blog/define/</link>
-      <pubDate>Sun, 22 Oct 2023 10:07:47 +0600</pubDate>
+      <pubDate>Sun, 22 Oct 2023 10:07:47 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/define/</guid>
       <description>C語言的巨集（#define）和function call是在程式碼中實現相同目標的兩種不同方法。不過，它們在空間和速度方面存在重要區別。
@@ -21,7 +21,7 @@
     <item>
       <title>SLOID設計原則</title>
       <link>https://Menglin31.github.io/blog/design_solid/</link>
-      <pubDate>Wed, 08 Mar 2023 10:07:47 +0600</pubDate>
+      <pubDate>Wed, 08 Mar 2023 10:07:47 +0800</pubDate>
       
       <guid>https://Menglin31.github.io/blog/design_solid/</guid>
       <description>SOLID設計原則 SRP: 單一職責原則 軟體產品的架構與開發團隊的組織會相互影響。 每個軟體模組只有一個理由需要改變。
